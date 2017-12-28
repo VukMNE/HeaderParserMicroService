@@ -4,6 +4,7 @@
   "description": "Microservice that parses user's ip adress, default computer language and operating system",
   "main": "program.js",
   "scripts": {
+	"start": "node program.js",
     "test": "node program.js"
   },
   "repository": {
