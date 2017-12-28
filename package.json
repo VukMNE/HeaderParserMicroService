@@ -1,0 +1,26 @@
+{
+  "name": "headerparsermicroservice",
+  "version": "1.0.0",
+  "description": "Microservice that parses user's ip adress, default computer language and operating system",
+  "main": "program.js",
+  "scripts": {
+    "test": "node program.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VukMNE/HeaderParserMicroService.git"
+  },
+  "keywords": [
+    "IPaddress",
+    "parser"
+  ],
+  "author": "VukMNE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VukMNE/HeaderParserMicroService/issues"
+  },
+  "homepage": "https://github.com/VukMNE/HeaderParserMicroService#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
