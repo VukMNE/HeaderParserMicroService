@@ -1,8 +1,7 @@
 var express = require("express");
 var app = express();
 app.get("/", function(request,response){
-	//console.log(request);
-	var ipAddress = request.ip.substring(request.ip.lastIndexOf(":")+1);
+	var ipAddress = request.ip.substring(request.connection.remoteAddress.lastIndexOf(":")+1);
 	var language = request.headers['accept-language'].split(',')[0];
 	var firstBracket = request.headers['user-agent'].indexOf('(')+1;
 	var secondBracket = request.headers['user-agent'].indexOf(')');
